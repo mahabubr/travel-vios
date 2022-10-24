@@ -1,0 +1,77 @@
+.destination-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../../../assets/web-info/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 200px;
+}
+
+/* .destination-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.destination-swiper {
+    margin-top: 50px;
+}
+
+.destination-heading {
+    color: #ffffff;
+    font-size: 4rem;
+    letter-spacing: 15px;
+}
+
+.destination-about {
+    color: #dedede;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.destination-btn {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #ffad48;
+    color: #111111;
+    transition: all 0.2s ease-in;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.destination-btn-about {
+    margin-right: 10px;
+}
+
+.destination-btn:hover {
+    background-color: #ff8c00;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    filter: brightness(50%);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.slider-info {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 30px;
+    color: white;
+}
+.slider-info h3 {
+    font-size: 2rem;
+}
+.slider-info p {
+    font-size: 1.2rem;
+}

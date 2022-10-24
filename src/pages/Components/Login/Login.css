@@ -1,0 +1,82 @@
+.login-container {
+    width: 40%;
+    margin: 50px auto;
+}
+
+.login-form {
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.input-field {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.remember-me {
+    display: flex;
+}
+
+.forgot-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-submit-btn {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #ffad48;
+    color: #111111;
+    transition: all 0.2s ease-in;
+    margin-top: 20px;
+}
+
+.form-submit-btn:hover {
+    background-color: #ff8c00;
+}
+
+.acc-paragraph {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sign-in-link {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #ff7300;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #ff7300;
+    transition: all 0.5s ease;
+}
+
+.acc-paragraph a {
+    color: #ff7300;
+}
+.forgot-field p {
+    color: #ff7300;
+    cursor: pointer;
+}
+.sign-in-link:hover {
+    background-color: #ff7300;
+    color: white;
+}
+
+.sign-in-icon {
+    margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.hotel-container {
+    width: 80%;
+    margin: 50px auto;
+}
+.hotel-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+}
